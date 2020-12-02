@@ -47,5 +47,6 @@
   },
   "devDependencies": {
     "cypress": "^6.0.1"
-  }
+  },
+    "proxy" : "http://backend:5000"
 }
