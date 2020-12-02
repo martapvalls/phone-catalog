@@ -1,0 +1,21 @@
+describe('Phone detail component', () => {
+    it('Visits the phone detail url which contains single phone details', ()=>{
+        cy.visit('http://localhost:3000/')
+        cy.wait(3000)
+        cy.get(':nth-child(1) > .phone__details-btn').click()
+        cy.wait(1000)
+        cy.location('pathname').should('include', 'phone/0')
+        cy.location('pathname').should('not.include', '/1')
+        cy.contains('.container > h1', 'iPhone 7')
+        cy.get('.phone__detail-img').should('exist').should('be.visible')
+        cy.get('.phone__details-p').should('be.visible')
+        cy.get('.phone__detail-price').should('exist').should('have.text', ' Price: 769€')
+        cy.contains('.phone__details-p > :nth-child(1)', ' lorem ipsum dolor sit amet consectetur.')
+        //cy.reload(true)
+        //cy.contains('.container > h1', 'iPhone 7')
+        cy.get('.phone__back').click()
+        cy.location('pathname').should('not.include', 'phone/0')
+        cy.location('pathname').should('include', '/')
+    })
+})
+

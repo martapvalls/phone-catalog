@@ -1,0 +1,41 @@
+.phone__title{
+    padding: 5%;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.phone__img{
+    width: 50%;
+}
+
+.phone__price{
+    padding: 4% 0 2% 0;
+    font-size: 1.2rem;
+}
+
+.phone__details-btn{
+    border: none;
+    background-color: rgb(132, 198, 255);
+    padding: 4%;
+    border-radius: 50px;
+    margin: 2%;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.phone__details-btn:hover{
+    transform: translate(0px, 5px);
+    box-shadow: 0px 2px 0px 0px;
+}
+
+/* desktop view */
+
+@media only screen and (min-width:600px){
+    .phone__img{
+        width: 80%;
+    }
+    .phone__price{
+        font-size: 1.6rem;
+    }
+}

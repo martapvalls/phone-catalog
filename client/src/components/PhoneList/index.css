@@ -1,0 +1,49 @@
+.phones__loader{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.phones__title{
+    text-align: center;
+    padding: 5%;
+    color: rgb(132, 198, 255);
+}
+
+.phones__list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border: 1px dotted rgb(132, 198, 255);
+    width: 70%;
+}
+
+.error{
+    background-color: rgb(240, 179, 179);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 5%;
+}
+
+/* desktop view */
+
+@media only screen and (min-width:600px){
+    .phones__title{
+        padding: 2%;
+    }
+    .phones__list{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .phone{
+        width: 20%;
+    }
+}

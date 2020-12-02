@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.phone__details{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5%;
+    text-align: center;
+}
+
+.phone__detail-img{
+    width: 50%;
+}
+
+.phone__back{
+    align-self: end;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    color: rgb(132, 198, 255);
+}
+
+.phone__back:hover{
+    transform: translate(-10px, 0px);
+}
+
+.phone__detail-price{
+    font-size: 1.6rem;
+}
+
+
+/* desktop view */
+
+@media only screen and (min-width:600px){
+    .phone__details{
+        flex-direction: row;
+        height: auto;
+        padding: 2%;
+    }
+    .phone__detail-img{
+        width: 350px;
+    }
+    .phone__details-p{
+        width: 450px;
+        padding-left: 2%;
+    }
+    p{
+        padding: 2%;
+    }
+    .phone__back{
+        font-size: 2rem;
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+}

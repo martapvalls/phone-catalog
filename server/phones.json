@@ -1,0 +1,98 @@
+[
+    {
+        "id": 0,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "iphone_7.jpg",
+        "screen": "4,7",
+        "processor": "A10 Fusion",
+        "ram": 2
+    },
+    {
+        "id" : 1,
+        "name": "Samsung Galaxy A51",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "blue",
+        "price": 369,
+        "imageFileName": "samsung_galaxy_A51.jpg",
+        "screen": "6,5",
+        "processor": "Exynos 9611",
+        "ram": 4
+    },
+    {
+        "id" : 2,
+        "name": "Oppo Find X2 Lite",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 499,
+        "imageFileName": "oppo_find_X2_lite.jpg",
+        "screen": "6,4",
+        "processor": "Snapdragon 765G Octa-Core",
+        "ram": 8
+    },
+    {
+        "id" : 3,
+        "name": "iPhone 12",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 909,
+        "imageFileName": "iphone_12.jpg",
+        "screen": "6,1",
+        "processor": "Apple A14 Bionic, 5nm NPU Neural Engine de 4ª gen",
+        "ram": 4
+    },
+    {
+        "id" : 4,
+        "name": "Huawei P40 Lite",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "green",
+        "price": 299,
+        "imageFileName": "huawei_P40_lite.jpg",
+        "screen": "6,4",
+        "processor": "Huawei Kirin 810 CPU, Octa-core, (2xCortex-A76 2.27GHz+6xCortex-A55 1.88GHz)",
+        "ram": 6
+    },
+    {
+        "id" : 5,
+        "name": "Samsung Galaxi S20 Ultra 5G",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "grey",
+        "price": 899,
+        "imageFileName": "samsung_galaxy_S20_Ultra_5G.png",
+        "screen": "6,9",
+        "processor": "Exynos 990",
+        "ram": 12
+    },
+    {
+        "id" : 6,
+        "name": "Huawei P Smart 2019",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 159,
+        "imageFileName": "huawei_P_smart.jpg",
+        "screen": "6,2",
+        "processor": "Kirin 710 Octa-core",
+        "ram": 3
+    },
+    {
+        "id" : 7,
+        "name": "Xiaomi Mi 9 SE",
+        "manufacturer": "Android",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 219,
+        "imageFileName": "xiaomi_mi_9_SE.jpg",
+        "screen": "5,9",
+        "processor": "Qualcomm Snapdragon 712, 10nm",
+        "ram": 6
+    }
+]
