@@ -9,6 +9,7 @@ The frontend made in React and Redux, is fed by the API to print the information
 ### Client
 
 ```
+$ cd client
 $ npm install
 $ npm start
 ```
@@ -16,6 +17,7 @@ $ npm start
 ### Server
 
 ```
+$ cd client
 $ npm install
 $ node index.js
 ```
@@ -26,3 +28,11 @@ The server side has beend deployed in Heroku
 The Client side has been deployed in Netlify
 
 You can run the demo [here](https://phone-catalog.netlify.app)
+
+## Run with Dockers
+
+Run this command at the root folder of phone-catalog
+```
+$ docker-compose up
+
+```
