@@ -19,7 +19,7 @@ $ npm start
 ```
 $ cd client
 $ npm install
-$ node index.js
+$ npm start
 ```
 
 ## Deployed site
